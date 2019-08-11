@@ -1,0 +1,82 @@
+body {
+	background-position: cover;
+	background-color: DarkKhaki;
+	color: Brown;
+	text-align: center;
+	font-size: 24px;
+	font-family: cooper, Arial;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav {
+	background-color: Aquamarine;
+	color: Cornsilk;	
+}
+
+.nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 2rem;
+}
+
+.nav ul li{
+	padding: 16px;
+	text-align: center;
+	font-size: 1.2rem;
+	border-bottom: 1px solid black;
+	transition: background-color 0.5s;
+}
+.nav ul li:hover {
+	background-color: black;
+}
+.centered-container {
+	position: relative;
+ 	max-width: 1020px;
+	margin: 0px auto;
+	padding: 0px auto;
+ }
+
+.image-area {
+	background-position: cover;
+	}
+ 
+.image-text {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 2rem;
+	margin:0px auto;
+	padding: 0px auto;	
+}
+.intro-text {
+	max-width: 1020px;
+	margin: 0px 16px;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+ .single-service {
+ 	text-align: center;
+ 	margin-bottom: 32px;
+ }
+ 
+
+@media screen and (min-width: 700px) {
+	.nav ul {
+		text-align: right;
+	}
+    .nav ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		border-left: 1px solid black;
+		text-align: left;
+	}
+	.single-service {
+		width: 40%;
+		float: left;
+	}
+}
